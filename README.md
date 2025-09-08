@@ -1,4 +1,6 @@
 ## 1.3.3. Modulo de Gestion de Reportes
+![Diagrama de flujo reportes](https://github.com/user-attachments/assets/258b0188-8db5-4ff9-ba30-de54a54ab813)
+
 | **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
 | Planificación de reportes | Definir frecuencia, alcance y responsables de los reportes según los proyectos y clientes. | Gerente General / Área de soporte |
