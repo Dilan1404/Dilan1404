@@ -1,16 +1,22 @@
-## Hi there 👋
+## 1.3.3. Gestion de Resportes
+### Descripción del Proceso de Gestion de Reportes
 
-<!--
-**Dilan1404/Dilan1404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+### Roles de las Áreas que Participan:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. **Área de Producción**:
+
+2. **Área de Logística**:
+
+
+3. **Área de Almacén**:
+  
+
+4. **Rol del Área de Finanzas**:
+
+
+## 1.3.5. Módulo de Clientes y Relaciones (CRM)
+**Acerca del proceso:**
+
+**Roles del proceso comercial:**
+- **Cliente**:
