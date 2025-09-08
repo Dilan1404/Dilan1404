@@ -6,12 +6,12 @@
 | **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
 | Recolección de datos | Captura de información generada durante los servicios (asesorías, auditorías, capacitaciones, monitoreos). | Asesor técnico |
-| Elaboración de reportes técnicos | Desarrollo de informes con resultados, hallazgos y conclusiones del servicio. | Asesor técnico |
+| Elaboración de reportes | Desarrollo de informes con resultados, hallazgos y conclusiones del servicio. | Asesor técnico |
 | Validación de reportes | Revisión y aprobación de la información antes de su entrega al cliente. | Asesor líder |
 | Organización de documentos | Clasificación de reportes y evidencias en carpetas de Google Drive por cliente y área. | Asesor de soporte |
 | Envío de reportes y certificados | Entrega formal de resultados y certificados al cliente. | Asesor de soporte / Asesor líder |
-| Conservación de históricos | Almacenamiento seguro de reportes para consultas futuras. | Asesor de soporte |
-| Inclusión en informes mensuales | Incorporación de avances y resultados en reportes periódicos para clientes de proyectos largos. | Asesor líder |
+| Conservación de datos históricos | Almacenamiento seguro de reportes para consultas futuras. | Asesor de soporte |
+| Realizacion de iformes mensuales| Incorporación de avances y resultados en reportes periódicos para clientes de proyectos largos. | Asesor líder |
 
 
 
