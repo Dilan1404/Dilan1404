@@ -15,14 +15,13 @@
 
 
 
-## 1.3.5. Módulo de Clientes y Relaciones (CRM)
+## 1.3.5. Módulo de Recursos Humanos
 | **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
-| Registro y actualización de clientes | Mantener base de datos de clientes actualizada (Excel). | Soporte administrativo |
-| Seguimiento de clientes | Visitas presenciales, llamadas y reuniones virtuales para mantener contacto. | Asesor líder |
-| Gestión de canales de contacto | Administración de página web, fanpage, LinkedIn y atención por recomendaciones. | Soporte administrativo / Comercial |
-| Recepción y clasificación de solicitudes | Atención inicial y categorización de requerimientos (capacitaciones, asesorías, auditorías). |  Soporte administrativo |
-| Elaboración de cotizaciones | Preparación de propuestas técnicas y económicas según servicio requerido. | Asesor líder / Gerente general |
-| Reuniones iniciales con clientes | Explicación detallada de los servicios y resolución de dudas. | Asesor líder |
-| Encuestas de satisfacción | Aplicación de encuestas post-servicio para medir percepción del cliente. | Soporte administrativo |
-| Identificación de nuevas oportunidades | Propuesta de servicios complementarios (ISO, capacitaciones adicionales). | Gerente general / Asesor líder |
+| Contratación de personal especializado | Identificar y seleccionar expertos para proyectos específicos de clientes | Gerente General |
+| Gestión de empleados | Mantener actualizada la información de asesores, técnicos y personal de soporte | Asesor líder / Área de soporte |
+| Capacitación y formación | Organizar capacitaciones técnicas y normativas; contratar capacitadores externos cuando sea necesario | Gerente General / Asesor líder |
+| Gestión de desarrollo del empleado | Implementar planes de desarrollo, evaluaciones de habilidades y oportunidades de mejora | Gerente General |
+| Asignación de expertos por proyecto | Designar asesores y auditores según tipo de servicio y especialidad requerida | Gerente General |
+| Evaluación de desempeño y retroalimentación | Medir desempeño de asesores y auditores con base en encuestas post-servicio y reportes de clientes | Gerente General / Cliente |
+| Gestión de disponibilidad y carga laboral | Programar disponibilidad de asesores en Google Calendar/Outlook para evitar sobrecarga de trabajo | Asesor líder / Soporte |
