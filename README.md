@@ -2,7 +2,6 @@
 ### Descripción del Proceso de Gestion de Reportes
 
 
-### Roles de las Áreas que Participan:
 
 | **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
