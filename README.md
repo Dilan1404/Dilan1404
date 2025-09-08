@@ -28,8 +28,9 @@
 
 # 2.2. Listado y Descripción de Módulos
 
-# Módulo de Gestión de Reportes  
-## Mejoras que trae el módulo  
+# 📊 Módulo de Gestión de Reportes  
+
+## ✅ Mejoras que trae el módulo  
 - Automatizará la planificación, recopilación, validación y consolidación de reportes, reduciendo errores manuales y mejorando la calidad de la información.  
 - Permitirá un seguimiento en tiempo real del estado de los reportes, desde la recopilación de datos hasta su envío al cliente.  
 - Reducirá el tiempo en la elaboración de reportes gracias a plantillas preconfiguradas y actualizaciones automáticas de información.  
@@ -37,14 +38,14 @@
 - Centralizará toda la documentación y versiones de los reportes, evitando duplicidad y pérdida de información.  
 - Facilitará la comunicación con el cliente al enviar reportes finales de manera digital, permitiendo trazabilidad y retroalimentación rápida.  
 
-##  Responsabilidades  
+## 🧑‍💼 Responsabilidades  
 - El sistema permitirá que los asesores y auditores ingresen directamente la información en el módulo, garantizando consistencia.  
 - Los responsables podrán validar y aprobar los reportes antes de su entrega al cliente.  
 - Se automatizará la actualización de reportes previos en caso de que se reciban datos nuevos o correcciones.  
 - El área de soporte gestionará la organización de datos, mientras el asesor líder será responsable del contenido técnico.  
 - El gerente general supervisará la entrega final al cliente y la calidad de los reportes.  
 
-## Interacción con otros módulos  
+## 🔄 Interacción con otros módulos  
 - Se integrará con el **Módulo de Gestión de Servicio** para recibir los resultados de las actividades y hallazgos de los equipos de trabajo.  
 - Se conectará con el **Módulo de Gestión de Clientes (CRM)** para registrar la entrega de reportes y mantener el historial de interacción con cada cliente.  
 - Al vincularse con el **Módulo de Solicitudes**, se podrán generar reportes específicos en función de las necesidades planteadas por los clientes.  
@@ -52,9 +53,9 @@
 
 ---
 
-# Módulo de Gestión Integral de Reclutamiento y Selección  
+# 📊 Módulo de Gestión Integral de Reclutamiento y Selección  
 
-## Mejoras que trae el módulo  
+## ✅ Mejoras que trae el módulo  
 - Automatizará la publicación de vacantes, la recepción de postulaciones y la preselección de candidatos.  
 - Reducirá tiempos de contratación al estandarizar entrevistas, evaluaciones técnicas y filtros de selección.  
 - Permitirá mantener un historial de candidatos y expertos externos que ya colaboraron en proyectos, facilitando contrataciones futuras.  
@@ -62,12 +63,15 @@
 - Asegurará que los nuevos empleados reciban capacitación inicial y seguimiento de desempeño, mejorando su adaptación a los proyectos.  
 - Mejorará la asignación de recursos humanos al vincular perfiles y competencias con las necesidades de los servicios.  
 
-##  Responsabilidades  
+## 🧑‍💼 Responsabilidades  
 - El área de soporte gestionará la publicación de vacantes y la recepción de postulaciones.  
 - El gerente general validará el perfil requerido y aprobará la contratación de candidatos.  
 - El asesor líder evaluará competencias técnicas y supervisará la capacitación de nuevos colaboradores.  
 - El sistema permitirá dar seguimiento al desempeño de empleados y generar métricas de efectividad para decisiones futuras.  
 
-## Interacción con otros módulos  
+## 🔄 Interacción con otros módulos  
 - Se integrará con el **Módulo de Gestión de Servicio**, asignando automáticamente los expertos seleccionados a los proyectos en curso.  
-- Estará conectado con el **Módulo de Recursos Humanos**, ya que
+- Estará conectado con el **Módulo de Recursos Humanos**, ya que las contrataciones y capacitaciones impactarán en la gestión general del personal.  
+- Retroalimentará al **Módulo de Reportes**, ya que los resultados del desempeño de los empleados serán insumo para evaluaciones y análisis.  
+- Estará vinculado con el **Módulo de Solicitudes**, ya que la demanda de nuevos expertos surge de los requerimientos de clientes y proyectos.  
+
