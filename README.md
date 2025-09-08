@@ -1,8 +1,5 @@
 ## 1.3.3. Modulo de Gestion de Reportes
-
-
-
-**| **Actividad** | **Descripción** | **Responsable** |
+ **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
 | Recolección de datos | Captura de información generada durante los servicios (asesorías, auditorías, capacitaciones, monitoreos). | Asesor técnico |
 | Elaboración de reportes | Desarrollo de informes con resultados, hallazgos y conclusiones del servicio. | Asesor técnico |
