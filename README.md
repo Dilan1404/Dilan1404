@@ -19,11 +19,11 @@
 ## 1.3.5. Módulo de Clientes y Relaciones (CRM)
 | **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
-| Registro y actualización de clientes | Mantener base de datos de clientes actualizada (Excel / CRM). | Soporte administrativo |
+| Registro y actualización de clientes | Mantener base de datos de clientes actualizada (Excel). | Soporte administrativo |
 | Seguimiento de clientes | Visitas presenciales, llamadas y reuniones virtuales para mantener contacto. | Asesor líder |
 | Gestión de canales de contacto | Administración de página web, fanpage, LinkedIn y atención por recomendaciones. | Soporte administrativo / Comercial |
-| Recepción y clasificación de solicitudes | Atención inicial y categorización de requerimientos (capacitaciones, asesorías, auditorías). | Asesor líder / Soporte administrativo |
+| Recepción y clasificación de solicitudes | Atención inicial y categorización de requerimientos (capacitaciones, asesorías, auditorías). |  Soporte administrativo |
 | Elaboración de cotizaciones | Preparación de propuestas técnicas y económicas según servicio requerido. | Asesor líder / Gerente general |
 | Reuniones iniciales con clientes | Explicación detallada de los servicios y resolución de dudas. | Asesor líder |
 | Encuestas de satisfacción | Aplicación de encuestas post-servicio para medir percepción del cliente. | Soporte administrativo |
-| Identificación de nuevas oportunidades | Propuesta de servicios complementarios (ej. otras ISO, capacitaciones adicionales). | Gerente general / Asesor líder |
+| Identificación de nuevas oportunidades | Propuesta de servicios complementarios (ISO, capacitaciones adicionales). | Gerente general / Asesor líder |
