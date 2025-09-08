@@ -1,13 +1,14 @@
 ## 1.3.3. Modulo de Gestion de Reportes
- **Actividad** | **Descripción** | **Responsable** |
+| **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
-| Recolección de datos | Captura de información generada durante los servicios (asesorías, auditorías, capacitaciones, monitoreos). | Asesor técnico |
-| Elaboración de reportes | Desarrollo de informes con resultados, hallazgos y conclusiones del servicio. | Asesor técnico |
-| Validación de reportes | Revisión y aprobación de la información antes de su entrega al cliente. | Asesor líder |
-| Organización de documentos | Clasificación de reportes y evidencias en carpetas de Google Drive por cliente y área. | Asesor de soporte |
-| Envío de reportes y certificados | Entrega formal de resultados y certificados al cliente. | Asesor de soporte / Asesor líder |
-| Conservación de datos históricos | Almacenamiento seguro de reportes para consultas futuras. | Asesor de soporte |
-| Realizacion de iformes mensuales| Incorporación de avances y resultados en reportes periódicos para clientes de proyectos largos. | Asesor líder |**
+| Planificación de reportes | Definir frecuencia, alcance y responsables de los reportes según los proyectos y clientes. | Gerente General / Área de soporte |
+| Recopilación de información | Recolectar datos de asesores, auditores y clientes (encuestas, resultados, hallazgos técnicos). | Asesor líder / Equipo de soporte |
+| Validación de datos | Verificar consistencia, precisión y relevancia de la información obtenida. | Asesor líder / Auditor responsable |
+| Gestión de la información | Organizar y clasificar los datos para facilitar análisis y actualización posterior. | Área de soporte |
+| Actualización de la información | Incorporar correcciones o datos nuevos provenientes de retroalimentación de clientes o asesores. | Área de soporte / Asesor líder |
+| Elaboración final del reporte | Redactar y estructurar el documento con hallazgos, conclusiones y recomendaciones. | Asesor líder / Área de soporte |
+| Actualización de reportes | Emitir nuevas versiones de reportes cuando hay cambios significativos en los proyectos. | Área de soporte |
+| Envío del reporte | Entregar el reporte final al cliente (formato PDF/correo/plataforma). | Gerente General / Área de soporte |
 
 
 
