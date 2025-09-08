@@ -16,9 +16,9 @@
 
 ## 1.3.5. Modulo de Gestion Integral de Reclutamiento y Selecion
 
-## 📌 Procesos 
+## Procesos 
 
-### 1. Gestión de Nuevas Vacantes
+### 1.3.5.1 . Gestión de Nuevas Vacantes
 ![Diagrama de flujo gestion de nuevas vacantes](https://github.com/user-attachments/assets/7c19b048-043c-40f3-9647-5aa47d93f727)
 
 
@@ -33,7 +33,7 @@
 ---
 
 
-### 2. Selección y Contratación
+### 1.3.5.2. Selección y Contratación
 ![Seleccion de contratacion](https://github.com/user-attachments/assets/1a188197-328d-45b5-920c-c4401981f024)
 | Actividad              | Descripción                                                                 | Responsable |
 |------------------------|-----------------------------------------------------------------------------|-------------|
@@ -47,7 +47,7 @@
 ---
 
 
-### 3. Asignación de Empleados
+### 1.3.5.3 . Asignación de Empleados
 ![Diagrama de flujo Empleados](https://github.com/user-attachments/assets/b9a78db3-5ae9-48e7-8b97-c88555b17807)
 | Actividad                  | Descripción                                                                 | Responsable |
 |-----------------------------|-----------------------------------------------------------------------------|-------------|
