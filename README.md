@@ -28,51 +28,46 @@
 
 # 2.2. Listado y Descripción de Módulos
 
-#  Módulo Gestión de Reportes
+# Módulo de Gestión de Reportes  
+## Mejoras que trae el módulo  
+- Automatizará la planificación, recopilación, validación y consolidación de reportes, reduciendo errores manuales y mejorando la calidad de la información.  
+- Permitirá un seguimiento en tiempo real del estado de los reportes, desde la recopilación de datos hasta su envío al cliente.  
+- Reducirá el tiempo en la elaboración de reportes gracias a plantillas preconfiguradas y actualizaciones automáticas de información.  
+- Garantizará que los reportes cumplan con estándares técnicos y normativos, aumentando la confiabilidad de la información entregada al cliente.  
+- Centralizará toda la documentación y versiones de los reportes, evitando duplicidad y pérdida de información.  
+- Facilitará la comunicación con el cliente al enviar reportes finales de manera digital, permitiendo trazabilidad y retroalimentación rápida.  
 
-## Mejoras que trae el módulo
-- Automatiza la recopilación, organización y almacenamiento de reportes, reduciendo errores y pérdida de información.  
-- Permite generar informes mensuales y reportes finales de forma estandarizada, mejorando la consistencia de la información entregada al cliente.  
-- Facilita la trazabilidad al conservar históricos de reportes accesibles para auditorías o consultas futuras.  
-- Acelera la validación y envío de reportes mediante flujos definidos con responsables claros.  
-- Mejora la comunicación con los clientes al entregar certificados y resultados en tiempos pactados.  
-- Reduce la duplicidad de esfuerzos al centralizar documentos en Google Drive y bases digitales organizadas por cliente.  
+##  Responsabilidades  
+- El sistema permitirá que los asesores y auditores ingresen directamente la información en el módulo, garantizando consistencia.  
+- Los responsables podrán validar y aprobar los reportes antes de su entrega al cliente.  
+- Se automatizará la actualización de reportes previos en caso de que se reciban datos nuevos o correcciones.  
+- El área de soporte gestionará la organización de datos, mientras el asesor líder será responsable del contenido técnico.  
+- El gerente general supervisará la entrega final al cliente y la calidad de los reportes.  
 
-## Responsabilidades
-- **Asesor Técnico:** recolección de datos y elaboración inicial de reportes.  
-- **Asesor Líder:** validación de reportes, elaboración de informes mensuales y coordinación de entregas.  
-- **Equipo de Soporte:** organización de documentos, conservación de históricos y apoyo en el envío de certificados.  
-- **Gerencia General:** supervisión y control de calidad en reportes estratégicos.  
-
-## Interacción con otros módulos
-- **Módulo de Clientes (CRM):** recibe información sobre qué servicios se realizaron y a qué clientes se deben enviar reportes.  
-- **Módulo de Auditoría y Evaluación:** utiliza los reportes como insumo para seguimiento de conformidades e indicadores.  
-- **Módulo de Capacitaciones:** integra los reportes de cursos y genera certificados que se almacenan en el sistema de reportes.  
-- **Módulo de Gestión de Proyectos:** incorpora reportes de avance en proyectos largos (ej. implementación de normas ISO o acreditaciones).  
+## Interacción con otros módulos  
+- Se integrará con el **Módulo de Gestión de Servicio** para recibir los resultados de las actividades y hallazgos de los equipos de trabajo.  
+- Se conectará con el **Módulo de Gestión de Clientes (CRM)** para registrar la entrega de reportes y mantener el historial de interacción con cada cliente.  
+- Al vincularse con el **Módulo de Solicitudes**, se podrán generar reportes específicos en función de las necesidades planteadas por los clientes.  
+- Permitirá retroalimentación al **Módulo de Recursos Humanos**, ya que los resultados de los reportes podrán usarse para evaluar el desempeño de asesores y auditores.  
 
 ---
 
-#  Módulo de Clientes y Relaciones (CRM)
+# Módulo de Gestión Integral de Reclutamiento y Selección  
 
-## Mejoras que trae el módulo
-- Centraliza toda la información de clientes en una sola base de datos, actualizada y accesible.  
-- Estandariza el proceso de recepción de solicitudes y cotizaciones, reduciendo el tiempo de respuesta.  
-- Facilita el seguimiento a clientes mediante recordatorios de reuniones, llamadas y visitas.  
-- Permite identificar oportunidades de venta cruzada (ej. ofrecer capacitaciones adicionales tras una asesoría).  
-- Mejora la satisfacción del cliente mediante encuestas post-servicio automatizadas.  
-- Evita la pérdida de contactos al mantener un historial de interacciones y solicitudes.  
+## Mejoras que trae el módulo  
+- Automatizará la publicación de vacantes, la recepción de postulaciones y la preselección de candidatos.  
+- Reducirá tiempos de contratación al estandarizar entrevistas, evaluaciones técnicas y filtros de selección.  
+- Permitirá mantener un historial de candidatos y expertos externos que ya colaboraron en proyectos, facilitando contrataciones futuras.  
+- Garantizará la trazabilidad del proceso de contratación (desde la vacante hasta la inducción del colaborador).  
+- Asegurará que los nuevos empleados reciban capacitación inicial y seguimiento de desempeño, mejorando su adaptación a los proyectos.  
+- Mejorará la asignación de recursos humanos al vincular perfiles y competencias con las necesidades de los servicios.  
 
-## Responsabilidades
-- **Soporte Administrativo:** registro y actualización de clientes, gestión de canales de contacto, aplicación de encuestas.  
-- **Asesor Líder:** seguimiento de clientes, reuniones iniciales, elaboración de cotizaciones, acompañamiento durante el servicio.  
-- **Gerente General:** supervisión de cotizaciones, clasificación estratégica de clientes y detección de nuevas oportunidades.  
-- **Comercial (si aplica):** apoyo en gestión de redes y atracción de clientes.  
+##  Responsabilidades  
+- El área de soporte gestionará la publicación de vacantes y la recepción de postulaciones.  
+- El gerente general validará el perfil requerido y aprobará la contratación de candidatos.  
+- El asesor líder evaluará competencias técnicas y supervisará la capacitación de nuevos colaboradores.  
+- El sistema permitirá dar seguimiento al desempeño de empleados y generar métricas de efectividad para decisiones futuras.  
 
-##  Interacción con otros módulos
-- **Módulo de Reportes:** entrega los resultados y certificados generados tras los servicios al cliente correspondiente.  
-- **Módulo de Proyectos:** cuando un cliente acepta una propuesta, se genera automáticamente un proyecto con fases y responsables.  
-- **Módulo de Capacitaciones:** gestiona inscripciones, convocatorias y seguimiento de clientes que toman cursos.  
-- **Módulo de Auditoría y Evaluación:** relaciona la satisfacción del cliente con los resultados obtenidos en auditorías internas o externas.  
-- **Módulo de Facturación / Contabilidad:** una vez aprobada la cotización, se genera la facturación del servicio.  
-
-
+## Interacción con otros módulos  
+- Se integrará con el **Módulo de Gestión de Servicio**, asignando automáticamente los expertos seleccionados a los proyectos en curso.  
+- Estará conectado con el **Módulo de Recursos Humanos**, ya que
