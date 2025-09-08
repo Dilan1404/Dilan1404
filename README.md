@@ -15,14 +15,49 @@
 
 
 ## 1.3.5. Modulo de Gestion Integral de Reclutamiento y Selecion
-| **Actividad** | **Descripción** | **Responsable** |
-|---------------|-----------------|-----------------|
-| Gestión de nuevas vacantes | Identificar la necesidad de contratar expertos externos o internos para proyectos específicos. | Gerente General / Asesor líder |
-| Definición de perfil | Establecer requisitos técnicos, experiencia y competencias necesarias para el cargo. | Gerente General / Área de soporte |
-| Selección y contratación | Revisar postulaciones, entrevistar y elegir al candidato más adecuado. | Gerente General / Asesor líder |
-| Capacitación de empleados | Brindar inducción y formación técnica/normativa a nuevos colaboradores. | Asesor líder / Área de soporte |
-| Asignación de empleados | Designar asesores y auditores a proyectos en función de su especialidad y disponibilidad. | Gerente General |
-| Gestión del desempeño | Evaluar el rendimiento y resultados de los colaboradores mediante encuestas, retroalimentación del cliente y reportes. | Gerente General / Cliente |
+
+## 📌 Procesos 
+
+### 1. Gestión de Nuevas Vacantes
+![Diagrama de flujo gestion de nuevas vacantes](https://github.com/user-attachments/assets/7c19b048-043c-40f3-9647-5aa47d93f727)
+
+
+| Actividad                        | Descripción                                                                                   | Responsable |
+|----------------------------------|-----------------------------------------------------------------------------------------------|-------------|
+| Identificación de necesidades de personal | Detectar la falta de personal interno o la necesidad de expertos externos para un proyecto. | Área solicitante / Jefe de Proyecto |
+| Solicitud de vacante             | Formalizar la necesidad de contratación mediante la solicitud al área de RRHH.                 | Asesor Líder / Gerente General |
+| Definición del perfil del puesto | Establecer competencias técnicas, experiencia y responsabilidades requeridas.                 | RRHH / Jefe de Área |
+| Aprobación de la vacante         | Validación final por parte de la gerencia para publicar el requerimiento.                      | Gerencia General |
+| Publicación de vacante           | Difusión en medios como LinkedIn, página web, bolsas de trabajo o red de consultores.          | Área de RRHH |
+
+---
+
+
+### 2. Selección y Contratación
+![Seleccion de contratacion](https://github.com/user-attachments/assets/1a188197-328d-45b5-920c-c4401981f024)
+| Actividad              | Descripción                                                                 | Responsable |
+|------------------------|-----------------------------------------------------------------------------|-------------|
+| Recepción de postulaciones | Recojo y registro de hojas de vida o perfiles enviados por los candidatos.     | Área de RRHH |
+| Preselección           | Filtro inicial según requisitos básicos: formación, experiencia, certificaciones. | Reclutador / RRHH |
+| Evaluación técnica     | Entrevistas técnicas o pruebas específicas relacionadas con el proyecto.         | Especialistas Técnicos / RRHH |
+| Entrevista con la gerencia | Validación del perfil personal y cultural del candidato.                         | Gerencia General |
+| Decisión de contratación | Selección del candidato más adecuado en base a evaluaciones.                      | Comité de Selección / RRHH |
+| Formalización del contrato | Redacción de acuerdos de honorarios, plazos y condiciones de colaboración.       | Área de RRHH / Legal |
+
+---
+
+
+### 3. Asignación de Empleados
+![Diagrama de flujo Empleados](https://github.com/user-attachments/assets/b9a78db3-5ae9-48e7-8b97-c88555b17807)
+| Actividad                  | Descripción                                                                 | Responsable |
+|-----------------------------|-----------------------------------------------------------------------------|-------------|
+| Registro en el sistema      | Incorporación del nuevo colaborador en la base de datos de recursos humanos. | Área de RRHH |
+| Asignación a proyecto/cliente | Designación del candidato a un servicio o proyecto específico según su perfil. | Jefe de Proyecto / RRHH |
+| Notificación al equipo      | Comunicación a asesores líderes y técnicos sobre la integración del nuevo miembro. | RRHH / Jefe de Proyecto |
+| Inducción y capacitación inicial | Formación en normativas, procesos internos y herramientas tecnológicas (Zoom, Drive, Keep, etc.). | RRHH / Área de Capacitación |
+| Seguimiento inicial         | Monitoreo del desempeño en las primeras semanas para validar la adecuación al puesto. | Jefe Directo / RRHH |
+
+---
 
 
 
