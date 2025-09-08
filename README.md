@@ -1,5 +1,4 @@
-## 1.3.3. Gestion de Reportes
-### Descripción del Proceso de Gestion de Reportes
+## 1.3.3. Modulo de Gestion de Reportes
 
 
 
