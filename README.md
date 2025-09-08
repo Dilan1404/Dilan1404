@@ -119,15 +119,7 @@
 
 ---
 
-### Caso de uso 3: Visualización en Dashboard
-| Campo           | Descripción |
-|-----------------|-------------|
-| **Objetivo**    | Visualizar métricas clave en tiempo real. |
-| **Descripción** | Permite al usuario acceder a un panel con gráficos de desempeño, contrataciones, bajas, rotación, entre otros. |
-| **Actor Primario** | Gerente General |
-| **Precondiciones** | El sistema debe estar alimentado con datos actualizados. |
-| **Pasos** | 1. El actor accede al módulo de reportes.<br>2. Selecciona "Dashboard".<br>3. El sistema muestra gráficos interactivos.<br>4. El usuario aplica filtros según necesidad. |
-| **Postcondiciones** | El usuario obtiene información visual y actualizada para la toma de decisiones. |
+
 
 ---
 
