@@ -2,7 +2,7 @@
 
 
 
-| **Actividad** | **Descripción** | **Responsable** |
+**| **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
 | Recolección de datos | Captura de información generada durante los servicios (asesorías, auditorías, capacitaciones, monitoreos). | Asesor técnico |
 | Elaboración de reportes | Desarrollo de informes con resultados, hallazgos y conclusiones del servicio. | Asesor técnico |
@@ -10,17 +10,16 @@
 | Organización de documentos | Clasificación de reportes y evidencias en carpetas de Google Drive por cliente y área. | Asesor de soporte |
 | Envío de reportes y certificados | Entrega formal de resultados y certificados al cliente. | Asesor de soporte / Asesor líder |
 | Conservación de datos históricos | Almacenamiento seguro de reportes para consultas futuras. | Asesor de soporte |
-| Realizacion de iformes mensuales| Incorporación de avances y resultados en reportes periódicos para clientes de proyectos largos. | Asesor líder |
+| Realizacion de iformes mensuales| Incorporación de avances y resultados en reportes periódicos para clientes de proyectos largos. | Asesor líder |**
 
 
 
-## 1.3.5. Módulo de Recursos Humanos
+## 1.3.5. Modulo de Gestion Integral de Reclutamiento y Selecion
 | **Actividad** | **Descripción** | **Responsable** |
 |---------------|-----------------|-----------------|
-| Contratación de personal especializado | Identificar y seleccionar expertos para proyectos específicos de clientes | Gerente General |
-| Gestión de empleados | Mantener actualizada la información de asesores, técnicos y personal de soporte | Asesor líder / Área de soporte |
-| Capacitación y formación | Organizar capacitaciones técnicas y normativas; contratar capacitadores externos cuando sea necesario | Gerente General / Asesor líder |
-| Gestión de desarrollo del empleado | Implementar planes de desarrollo, evaluaciones de habilidades y oportunidades de mejora | Gerente General |
-| Asignación de expertos por proyecto | Designar asesores y auditores según tipo de servicio y especialidad requerida | Gerente General |
-| Evaluación de desempeño y retroalimentación | Medir desempeño de asesores y auditores con base en encuestas post-servicio y reportes de clientes | Gerente General / Cliente |
-| Gestión de disponibilidad y carga laboral | Programar disponibilidad de asesores en Google Calendar/Outlook para evitar sobrecarga de trabajo | Asesor líder / Soporte |
+| Gestión de nuevas vacantes | Identificar la necesidad de contratar expertos externos o internos para proyectos específicos. | Gerente General / Asesor líder |
+| Definición de perfil | Establecer requisitos técnicos, experiencia y competencias necesarias para el cargo. | Gerente General / Área de soporte |
+| Selección y contratación | Revisar postulaciones, entrevistar y elegir al candidato más adecuado. | Gerente General / Asesor líder |
+| Capacitación de empleados | Brindar inducción y formación técnica/normativa a nuevos colaboradores. | Asesor líder / Área de soporte |
+| Asignación de empleados | Designar asesores y auditores a proyectos en función de su especialidad y disponibilidad. | Gerente General |
+| Gestión del desempeño | Evaluar el rendimiento y resultados de los colaboradores mediante encuestas, retroalimentación del cliente y reportes. | Gerente General / Cliente |
