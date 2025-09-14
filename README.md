@@ -289,7 +289,7 @@ En este apartados podemos ver los casos de uso que se implementaron dentro del m
 Aca rellenamos la informacion de un experto ,los campos a rellenar son nombre completo,email,ubicacion,telefono,especialidad,años de experiencia,etc
 <img width="1021" height="807" alt="Captura de pantalla 2025-09-13 234532" src="https://github.com/user-attachments/assets/8811e49c-6918-4419-93db-8eed56edd6d4" />
 
-##Caso de uso 2
+## Caso de uso 2
 ## Pantalla Asignar Personal a Proyecto
 En este apartado tenemo el trabajo de selecionar a nuestro personal para asignarles un proyecto,puede estar conformado por un equipo
 <img width="1013" height="680" alt="Captura de pantalla 2025-09-13 234828" src="https://github.com/user-attachments/assets/78a4b6c2-2a7d-44e9-8115-0c9419f7cf3f" />
