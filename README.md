@@ -313,5 +313,8 @@ Aca se ve los proyectos terminados y los pendientes,por lo general se evalua al 
 Aca se evalua bajo varios criterios,Conocimiento tecnito,puntualidad,calidad de trabajo,comentario  y retroalimentacion
 <img width="905" height="885" alt="Captura de pantalla 2025-09-13 235944" src="https://github.com/user-attachments/assets/ea8ec235-43ba-43a8-a9a2-181bddc57eaf" />
 
+## Pantalla evaluacion enviada
+<img width="867" height="867" alt="Captura de pantalla 2025-09-14 000100" src="https://github.com/user-attachments/assets/eeeb0cc7-af73-4454-ab1a-97de9380fe6d" />
+
 ---
 
