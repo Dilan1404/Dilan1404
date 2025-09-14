@@ -115,112 +115,115 @@
 
 
 
-# Módulo de Gestión de Reportes
 
-## Requerimientos Funcionales
 
-| Requerimiento              | Descripción |
-|-----------------------------|-------------|
-| Generación de Reportes      | El sistema debe permitir crear reportes personalizados sobre empleados, procesos de reclutamiento, capacitaciones y evaluaciones. |
-| Exportación de Datos        | El sistema debe permitir exportar reportes en diferentes formatos (PDF, Excel, CSV). |
-| Reportes Automáticos        | El sistema debe generar reportes programados (diarios, semanales, mensuales) de acuerdo a parámetros configurados. |
-| Filtros y Consultas         | El sistema debe permitir aplicar filtros dinámicos (por área, cargo, fecha, responsable) en la generación de reportes. |
-| Dashboards Interactivos     | El sistema debe ofrecer paneles gráficos para visualizar métricas clave en tiempo real. |
-| Control de Accesos          | El sistema debe garantizar que solo usuarios autorizados puedan generar o visualizar ciertos reportes. |
+
+
+Perfecto 🙌. Te armo todo en **cuadros en Markdown** con la estructura que pides para que lo subas directo a tu GitHub. Te lo preparo por **módulo** (Gestión de Reportes y Gestión de Personal y Expertos Asociados), y cada punto (requisitos, atributos de calidad, restricciones, prototipos) irá en tablas con el formato que mostraste.
 
 ---
 
-## Casos de Uso
+## 📊 Módulo: Gestión de Reportes
 
-### Caso de uso 1: Generación de Reporte
-| Campo           | Descripción |
-|-----------------|-------------|
-| **Objetivo**    | Permitir a los responsables generar reportes personalizados. |
-| **Descripción** | El usuario puede seleccionar criterios de búsqueda (período, área, tipo de reporte) y generar un documento. |
-| **Actor Primario** | Analista de RRHH |
-| **Precondiciones** | Deben existir datos registrados en el sistema. |
-| **Pasos** | 1. El actor selecciona la opción "Generar Reporte".<br>2. Define los filtros (área, fechas, responsables, tipo de reporte).<br>3. El sistema procesa la solicitud.<br>4. El sistema muestra el reporte generado.<br>5. El actor puede exportar el reporte. |
-| **Postcondiciones** | El reporte queda disponible para consulta y descarga. |
+### Requisitos Funcionales (Casos de Uso)
 
----
-
-### Caso de uso 2: Programación de Reportes Automáticos
-| Campo           | Descripción |
-|-----------------|-------------|
-| **Objetivo**    | Configurar reportes automáticos periódicos. |
-| **Descripción** | El usuario define reportes que se generarán automáticamente según una frecuencia definida. |
-| **Actor Primario** | Jefe de RRHH |
-| **Precondiciones** | El sistema debe tener datos registrados. |
-| **Pasos** | 1. El actor selecciona "Configurar Reporte Automático".<br>2. Define tipo de reporte, frecuencia y destinatarios.<br>3. El sistema guarda la configuración.<br>4. El sistema genera y envía reportes automáticamente. |
-| **Postcondiciones** | Los reportes se generan y distribuyen de manera periódica. |
+| **Campo**                   | **Detalle**                                                                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Nombre del caso de uso      | Elaborar reporte de auditoría                                                                                                        |
+| Actor(es) involucrado(s)    | Auditor interno, Gerente de área                                                                                                     |
+| Objetivo                    | Generar un reporte consolidado con métricas e indicadores clave                                                                      |
+| Precondiciones              | El usuario debe estar autenticado y tener permisos de auditoría                                                                      |
+| Disparador o evento inicial | El auditor selecciona la opción "Generar Reporte"                                                                                    |
+| Flujo principal de eventos  | 1. Usuario ingresa parámetros <br> 2. Sistema valida datos <br> 3. Sistema procesa información <br> 4. Se genera reporte en pantalla |
+| Flujos alternativos         | Si no hay datos → mostrar mensaje “No existen registros disponibles”                                                                 |
+| Postcondiciones             | Reporte generado y disponible para exportar en PDF/Excel                                                                             |
+| Excepciones                 | Fallo en la conexión a la base de datos                                                                                              |
+| Pantalla(s) asociada(s)     | P001 – Generación de reporte                                                                                                         |
 
 ---
 
+### Requisitos de Atributos de Calidad
 
-
----
-
-#  Módulo de Gestión Integral de Reclutamiento y Selección
-
-## Requerimientos Funcionales
-
-| Requerimiento               | Descripción |
-|------------------------------|-------------|
-| Gestión de Vacantes          | El sistema debe permitir registrar, editar y cerrar vacantes con detalles de perfil, requisitos, salario y fechas. |
-| Publicación de Vacantes      | El sistema debe permitir publicar vacantes en portales internos y externos. |
-| Recepción de Candidaturas    | El sistema debe recibir y almacenar aplicaciones de candidatos. |
-| Filtro y Preselección        | El sistema debe filtrar candidatos según criterios definidos (formación, experiencia, competencias). |
-| Entrevistas y Evaluaciones   | El sistema debe agendar entrevistas y registrar evaluaciones técnicas y psicológicas. |
-| Contratación                 | El sistema debe permitir formalizar la contratación y generar documentos asociados. |
-| Asignación de Empleados      | El sistema debe permitir asignar empleados a áreas o proyectos, vinculando con RRHH. |
-| Notificaciones Automáticas   | El sistema debe enviar alertas sobre nuevas vacantes, entrevistas y resultados de selección. |
+| **Atributo**   | **Descripción**                                                                    |
+| -------------- | ---------------------------------------------------------------------------------- |
+| Rendimiento    | El reporte debe generarse en menos de 3 segundos con un máximo de 10,000 registros |
+| Disponibilidad | 99% en horario laboral (08:00 – 20:00)                                             |
+| Escalabilidad  | Capacidad de soportar hasta 200 usuarios concurrentes                              |
+| Seguridad      | Acceso controlado por roles (solo gerentes/auditores pueden exportar)              |
+| Usabilidad     | Interfaz intuitiva, con filtros claros y exportación en un solo clic               |
 
 ---
 
-## Casos de Uso
+### Restricciones
 
-### Caso de uso 1: Registro de Vacante
-| Campo           | Descripción |
-|-----------------|-------------|
-| **Objetivo**    | Registrar una nueva vacante en el sistema. |
-| **Descripción** | Permite a RRHH crear una vacante con detalles de puesto, requisitos y responsable. |
-| **Actor Primario** | Coordinador de RRHH |
-| **Precondiciones** | Debe existir una necesidad de contratación aprobada. |
-| **Pasos** | 1. El actor selecciona "Registrar Vacante".<br>2. Ingresa datos (cargo, área, requisitos, salario).<br>3. El sistema valida información.<br>4. El sistema registra la vacante como "Activa". |
-| **Postcondiciones** | La vacante queda disponible para recibir postulaciones. |
+| **Restricción** | **Detalle**                                               |
+| --------------- | --------------------------------------------------------- |
+| Tecnologías     | Base de datos SQL Server, frontend web responsive         |
+| Integraciones   | Módulo de Personal (para cruzar datos de trabajadores)    |
+| Normas          | Cumplimiento con ISO 9001 para trazabilidad de auditorías |
 
 ---
 
-### Caso de uso 2: Preselección de Candidatos
-| Campo           | Descripción |
-|-----------------|-------------|
-| **Objetivo**    | Identificar candidatos que cumplen los requisitos básicos. |
-| **Descripción** | Permite al sistema filtrar candidatos en base a criterios configurados. |
-| **Actor Primario** | Reclutador |
-| **Precondiciones** | Deben existir postulantes registrados. |
-| **Pasos** | 1. El reclutador accede a la vacante.<br>2. Selecciona "Preselección Automática".<br>3. El sistema aplica filtros.<br>4. Muestra listado de candidatos preseleccionados.<br>5. El reclutador valida y guarda. |
-| **Postcondiciones** | La vacante queda con lista de candidatos aptos para entrevistas. |
+### Prototipo de Interfaces
+
+| **Código** | **Descripción**                               |
+| ---------- | --------------------------------------------- |
+| P001       | Pantalla de generación de reporte con filtros |
+| P002       | Vista previa del reporte generado             |
+| P003       | Opción de exportación (PDF/Excel)             |
 
 ---
 
-### Caso de uso 3: Programación de Entrevistas
-| Campo           | Descripción |
-|-----------------|-------------|
-| **Objetivo**    | Planificar entrevistas con los candidatos preseleccionados. |
-| **Descripción** | Permite agendar entrevistas individuales o grupales con fechas, modalidad y responsables. |
-| **Actor Primario** | Reclutador |
-| **Precondiciones** | Deben existir candidatos preseleccionados. |
-| **Pasos** | 1. El reclutador selecciona candidato.<br>2. Elige "Programar Entrevista".<br>3. Define fecha, hora y evaluador.<br>4. El sistema notifica al candidato y al entrevistador. |
-| **Postcondiciones** | La entrevista queda registrada en el calendario del sistema. |
+## 👥 Módulo: Gestión de Personal y Expertos Asociados
+
+### Requisitos Funcionales (Casos de Uso)
+
+| **Campo**                   | **Detalle**                                                                                          |
+| --------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Nombre del caso de uso      | Asignar experto asociado a proyecto                                                                  |
+| Actor(es) involucrado(s)    | Jefe de proyectos, Experto externo                                                                   |
+| Objetivo                    | Vincular personal interno o externo a proyectos según especialidad                                   |
+| Precondiciones              | El proyecto debe estar registrado en el sistema                                                      |
+| Disparador o evento inicial | El jefe selecciona “Asignar experto”                                                                 |
+| Flujo principal de eventos  | 1. Selección del proyecto <br> 2. Consulta de expertos disponibles <br> 3. Asignación y confirmación |
+| Flujos alternativos         | Si no hay experto disponible → sugerir capacitación interna                                          |
+| Postcondiciones             | El experto queda registrado en el proyecto                                                           |
+| Excepciones                 | Error en carga de datos de disponibilidad                                                            |
+| Pantalla(s) asociada(s)     | P101 – Gestión de expertos asociados                                                                 |
 
 ---
 
-### Caso de uso 4: Contratación de Candidato
-| Campo           | Descripción |
-|-----------------|-------------|
-| **Objetivo**    | Formalizar la contratación de un candidato seleccionado. |
-| **Descripción** | Permite generar contratos, registrar la contratación y asignar al empleado. |
-| **Actor Primario** | Jefe de RRHH |
-| **Precondiciones** | El candidato debe haber sido seleccionado. |
-| **Pasos** | 1. El jefe de RRHH confirma selección.<br>2. El sistema genera contrato.<br>3. El actor revisa y valida.<br>4. El sistema registra la contratación.<br>5. El empleado se asigna a un área. |
-| **Postcondiciones** | El empleado queda registrado en el sistema y asignado a su puesto. |
+### Requisitos de Atributos de Calidad
+
+| **Atributo**   | **Descripción**                                                           |
+| -------------- | ------------------------------------------------------------------------- |
+| Rendimiento    | La consulta de expertos debe responder en menos de 2 segundos             |
+| Disponibilidad | 99.5% en todo horario laboral                                             |
+| Escalabilidad  | Hasta 1000 registros de personal y expertos asociados                     |
+| Seguridad      | Validación de credenciales, encriptación de datos personales              |
+| Usabilidad     | Pantalla de búsqueda rápida con filtros por especialidad y disponibilidad |
+
+---
+
+### Restricciones
+
+| **Restricción** | **Detalle**                                               |
+| --------------- | --------------------------------------------------------- |
+| Tecnologías     | Base de datos relacional, API REST para integración       |
+| Integraciones   | Módulo de Reportes (para medir participación de expertos) |
+| Normas          | Cumplimiento con Ley de Protección de Datos Personales    |
+
+---
+
+### Prototipo de Interfaces
+
+| **Código** | **Descripción**                                      |
+| ---------- | ---------------------------------------------------- |
+| P101       | Pantalla de búsqueda de expertos internos y externos |
+| P102       | Detalle de perfil de experto                         |
+| P103       | Asignación de experto a un proyecto                  |
+
+---
+
+¿Quieres que también te arme **el cuadro unificado de ambos módulos juntos** (uno debajo del otro en el mismo archivo Markdown), o prefieres mantenerlos separados en archivos distintos para tu GitHub?
+
