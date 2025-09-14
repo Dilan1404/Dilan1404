@@ -119,111 +119,151 @@
 
 
 
-Perfecto 🙌. Te armo todo en **cuadros en Markdown** con la estructura que pides para que lo subas directo a tu GitHub. Te lo preparo por **módulo** (Gestión de Reportes y Gestión de Personal y Expertos Asociados), y cada punto (requisitos, atributos de calidad, restricciones, prototipos) irá en tablas con el formato que mostraste.
+# 📘 Especificación de Requisitos y Prototipo
 
 ---
 
-## 📊 Módulo: Gestión de Reportes
+## 1️⃣ Módulo de Gestión de Reportes
 
-### Requisitos Funcionales (Casos de Uso)
+### Requisitos funcionales (Casos de uso)
 
-| **Campo**                   | **Detalle**                                                                                                                          |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Nombre del caso de uso      | Elaborar reporte de auditoría                                                                                                        |
-| Actor(es) involucrado(s)    | Auditor interno, Gerente de área                                                                                                     |
-| Objetivo                    | Generar un reporte consolidado con métricas e indicadores clave                                                                      |
-| Precondiciones              | El usuario debe estar autenticado y tener permisos de auditoría                                                                      |
-| Disparador o evento inicial | El auditor selecciona la opción "Generar Reporte"                                                                                    |
-| Flujo principal de eventos  | 1. Usuario ingresa parámetros <br> 2. Sistema valida datos <br> 3. Sistema procesa información <br> 4. Se genera reporte en pantalla |
-| Flujos alternativos         | Si no hay datos → mostrar mensaje “No existen registros disponibles”                                                                 |
-| Postcondiciones             | Reporte generado y disponible para exportar en PDF/Excel                                                                             |
-| Excepciones                 | Fallo en la conexión a la base de datos                                                                                              |
-| Pantalla(s) asociada(s)     | P001 – Generación de reporte                                                                                                         |
+| **Campo** | **Detalle** |
+|-----------|-------------|
+| **Caso de uso 1** | **Elaborar reporte de auditoría** |
+| **Actor(es)** | Asesor líder, Auditor, Cliente |
+| **Objetivo** | Generar un reporte con hallazgos, conclusiones y recomendaciones |
+| **Precondiciones** | Auditoría realizada; datos registrados en sistema |
+| **Disparador** | Finalización de auditoría o capacitación |
+| **Flujo principal** | 1. El asesor líder selecciona proyecto/servicio <br> 2. El sistema carga la información recolectada (encuestas, listas de asistencia, cronograma) <br> 3. El asesor valida y complementa datos <br> 4. El sistema genera reporte preliminar <br> 5. El asesor revisa, aprueba y publica versión final |
+| **Postcondiciones** | Reporte disponible para cliente en formato digital |
+| **Pantallas asociadas** | P001 – Lista de reportes <br> P002 – Editor de reportes |
 
 ---
 
-### Requisitos de Atributos de Calidad
-
-| **Atributo**   | **Descripción**                                                                    |
-| -------------- | ---------------------------------------------------------------------------------- |
-| Rendimiento    | El reporte debe generarse en menos de 3 segundos con un máximo de 10,000 registros |
-| Disponibilidad | 99% en horario laboral (08:00 – 20:00)                                             |
-| Escalabilidad  | Capacidad de soportar hasta 200 usuarios concurrentes                              |
-| Seguridad      | Acceso controlado por roles (solo gerentes/auditores pueden exportar)              |
-| Usabilidad     | Interfaz intuitiva, con filtros claros y exportación en un solo clic               |
-
----
-
-### Restricciones
-
-| **Restricción** | **Detalle**                                               |
-| --------------- | --------------------------------------------------------- |
-| Tecnologías     | Base de datos SQL Server, frontend web responsive         |
-| Integraciones   | Módulo de Personal (para cruzar datos de trabajadores)    |
-| Normas          | Cumplimiento con ISO 9001 para trazabilidad de auditorías |
+| **Campo** | **Detalle** |
+|-----------|-------------|
+| **Caso de uso 2** | **Consultar reportes históricos** |
+| **Actor(es)** | Gerente General, Cliente |
+| **Objetivo** | Acceder a reportes previos organizados por cliente y proyecto |
+| **Precondiciones** | Existencia de reportes archivados |
+| **Disparador** | Usuario selecciona cliente o proyecto |
+| **Flujo principal** | 1. Usuario ingresa al módulo de reportes <br> 2. El sistema muestra lista de reportes asociados <br> 3. Usuario selecciona reporte para descargar o visualizar |
+| **Postcondiciones** | Reporte accesible en PDF |
+| **Pantallas asociadas** | P003 – Historial de reportes |
 
 ---
 
-### Prototipo de Interfaces
+### Requisitos de atributos de calidad
 
-| **Código** | **Descripción**                               |
-| ---------- | --------------------------------------------- |
-| P001       | Pantalla de generación de reporte con filtros |
-| P002       | Vista previa del reporte generado             |
-| P003       | Opción de exportación (PDF/Excel)             |
-
----
-
-## 👥 Módulo: Gestión de Personal y Expertos Asociados
-
-### Requisitos Funcionales (Casos de Uso)
-
-| **Campo**                   | **Detalle**                                                                                          |
-| --------------------------- | ---------------------------------------------------------------------------------------------------- |
-| Nombre del caso de uso      | Asignar experto asociado a proyecto                                                                  |
-| Actor(es) involucrado(s)    | Jefe de proyectos, Experto externo                                                                   |
-| Objetivo                    | Vincular personal interno o externo a proyectos según especialidad                                   |
-| Precondiciones              | El proyecto debe estar registrado en el sistema                                                      |
-| Disparador o evento inicial | El jefe selecciona “Asignar experto”                                                                 |
-| Flujo principal de eventos  | 1. Selección del proyecto <br> 2. Consulta de expertos disponibles <br> 3. Asignación y confirmación |
-| Flujos alternativos         | Si no hay experto disponible → sugerir capacitación interna                                          |
-| Postcondiciones             | El experto queda registrado en el proyecto                                                           |
-| Excepciones                 | Error en carga de datos de disponibilidad                                                            |
-| Pantalla(s) asociada(s)     | P101 – Gestión de expertos asociados                                                                 |
-
----
-
-### Requisitos de Atributos de Calidad
-
-| **Atributo**   | **Descripción**                                                           |
-| -------------- | ------------------------------------------------------------------------- |
-| Rendimiento    | La consulta de expertos debe responder en menos de 2 segundos             |
-| Disponibilidad | 99.5% en todo horario laboral                                             |
-| Escalabilidad  | Hasta 1000 registros de personal y expertos asociados                     |
-| Seguridad      | Validación de credenciales, encriptación de datos personales              |
-| Usabilidad     | Pantalla de búsqueda rápida con filtros por especialidad y disponibilidad |
+| **Atributo** | **Detalle** |
+|--------------|-------------|
+| **Rendimiento** | Listar reportes debe demorar < 2s para hasta 500 registros |
+| **Disponibilidad** | 99.5% en horario laboral (08:00–20:00) |
+| **Escalabilidad** | Soportar hasta 100 usuarios concurrentes |
+| **Seguridad** | Acceso controlado según rol; clientes solo ven reportes propios |
+| **Usabilidad** | Consultar un reporte en máximo 3 clics |
 
 ---
 
 ### Restricciones
 
-| **Restricción** | **Detalle**                                               |
-| --------------- | --------------------------------------------------------- |
-| Tecnologías     | Base de datos relacional, API REST para integración       |
-| Integraciones   | Módulo de Reportes (para medir participación de expertos) |
-| Normas          | Cumplimiento con Ley de Protección de Datos Personales    |
+| **Restricción** | **Detalle** |
+|-----------------|-------------|
+| **Integración** | Google Drive para almacenamiento de entregables |
+| **Normas** | Cumplimiento con requisitos de acreditación INACAL en reportes de ensayos |
 
 ---
 
-### Prototipo de Interfaces
+### Prototipo (pantallas preliminares)
 
-| **Código** | **Descripción**                                      |
-| ---------- | ---------------------------------------------------- |
-| P101       | Pantalla de búsqueda de expertos internos y externos |
-| P102       | Detalle de perfil de experto                         |
-| P103       | Asignación de experto a un proyecto                  |
+| **Código** | **Descripción** |
+|------------|-----------------|
+| **P001** | Lista de reportes – vista de proyectos y reportes asociados |
+| **P002** | Editor de reportes – formulario para consolidar datos y generar reporte |
+| **P003** | Historial – reportes por cliente, con opción de descarga |
+
+###Caso de uso 1
+<img width="1587" height="705" alt="Captura de pantalla 2025-09-13 230551" src="https://github.com/user-attachments/assets/a58cd1cb-611e-42f3-bc04-936419bdc484" />
+<img width="1080" height="560" alt="Captura de pantalla 2025-09-13 231700" src="https://github.com/user-attachments/assets/f2943bf3-e433-4844-8c91-5836fc9bbf14" />
+<img width="1072" height="807" alt="Captura de pantalla 2025-09-13 231748" src="https://github.com/user-attachments/assets/187eb2c3-b0c2-4e9d-bd79-57c99cdf596a" />
+<img width="1035" height="690" alt="Captura de pantalla 2025-09-13 231845" src="https://github.com/user-attachments/assets/cae397e1-564d-4c65-9f1d-0822d4af3a4a" />
+
+###Caso de uso 2
+<img width="1016" height="709" alt="Captura de pantalla 2025-09-13 232028" src="https://github.com/user-attachments/assets/a5ce726d-a6fb-4b3b-9155-9c1fa839a72d" />
+<img width="1043" height="786" alt="Captura de pantalla 2025-09-13 232313" src="https://github.com/user-attachments/assets/f4a67c9b-9073-4672-af97-5a493ac0a0df" />
+
+
+## 2️⃣ Módulo de Gestión de Personal y Expertos Asociados
+
+### Requisitos funcionales (Casos de uso)
+
+| **Campo** | **Detalle** |
+|-----------|-------------|
+| **Caso de uso 1** | **Registrar nuevo experto asociado** |
+| **Actor(es)** | Gerente General, Área de soporte |
+| **Objetivo** | Ingresar datos de un experto externo para proyectos futuros |
+| **Precondiciones** | Perfil de puesto definido |
+| **Disparador** | Necesidad de cubrir un proyecto especializado |
+| **Flujo principal** | 1. Gerente solicita registro de experto <br> 2. El sistema muestra formulario de registro <br> 3. Se ingresan datos de contacto, especialidad, experiencia <br> 4. El sistema guarda registro y lo asocia a base de talento |
+| **Postcondiciones** | Experto disponible en catálogo de recursos |
+| **Pantallas asociadas** | P101 – Registro de experto |
 
 ---
 
-¿Quieres que también te arme **el cuadro unificado de ambos módulos juntos** (uno debajo del otro en el mismo archivo Markdown), o prefieres mantenerlos separados en archivos distintos para tu GitHub?
+| **Campo** | **Detalle** |
+|-----------|-------------|
+| **Caso de uso 2** | **Asignar personal/experto a proyecto** |
+| **Actor(es)** | Gerente General, Asesor líder |
+| **Objetivo** | Vincular empleado interno o experto externo a un proyecto |
+| **Precondiciones** | Proyecto registrado; personal disponible |
+| **Disparador** | Inicio de nuevo servicio o auditoría |
+| **Flujo principal** | 1. Usuario selecciona proyecto <br> 2. El sistema lista candidatos internos y externos disponibles <br> 3. Usuario elige personal y lo asigna <br> 4. El sistema notifica al personal asignado |
+| **Postcondiciones** | Personal queda vinculado al proyecto |
+| **Pantallas asociadas** | P102 – Asignación de personal |
+
+---
+
+| **Campo** | **Detalle** |
+|-----------|-------------|
+| **Caso de uso 3** | **Evaluar desempeño de personal/experto** |
+| **Actor(es)** | Cliente, Gerente General |
+| **Objetivo** | Recibir retroalimentación sobre desempeño en un servicio |
+| **Precondiciones** | Proyecto finalizado |
+| **Disparador** | Cierre de proyecto |
+| **Flujo principal** | 1. El sistema envía encuesta al cliente <br> 2. Cliente responde con calificaciones y comentarios <br> 3. El sistema genera reporte de desempeño |
+| **Postcondiciones** | Evaluación registrada en historial del colaborador |
+| **Pantallas asociadas** | P103 – Evaluación de desempeño |
+
+---
+
+### Requisitos de atributos de calidad
+
+| **Atributo** | **Detalle** |
+|--------------|-------------|
+| **Rendimiento** | Registro de un experto no debe exceder 3s |
+| **Disponibilidad** | 99% en horarios laborales |
+| **Escalabilidad** | Base de datos de hasta 10,000 registros de personal/externos |
+| **Seguridad** | Control de acceso; información sensible protegida con cifrado |
+| **Usabilidad** | Registro en máximo 5 pasos; interfaz compatible con móviles |
+
+---
+
+### Restricciones
+
+| **Restricción** | **Detalle** |
+|-----------------|-------------|
+| **Normativa** | Cumplimiento con normativa laboral peruana y acuerdos de confidencialidad |
+| **Integración** | Posible integración con módulos contables para pagos a externos |
+
+---
+
+### Prototipo (pantallas preliminares)
+
+| **Código** | **Descripción** |
+|------------|-----------------|
+| **P101** | Registro de experto – formulario de datos personales y técnicos |
+| **P102** | Asignación de personal – vista de proyectos y disponibilidad |
+| **P103** | Evaluación de desempeño – formulario de retroalimentación del cliente |
+
+---
 
