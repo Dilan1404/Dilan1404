@@ -296,11 +296,22 @@ En este apartado tenemo el trabajo de selecionar a nuestro personal para asignar
 
 ## Pantalla Seleccionar Experto
 Aca selecionamos a los expertos que participaran en el proyecto ,se seleciona y los correos seran enviados a dichos expertos para su coordianacion
+
 <img width="694" height="522" alt="Captura de pantalla 2025-09-13 235031" src="https://github.com/user-attachments/assets/8537618c-6a3a-421c-bd47-01d554662947" />
 
 ## Confirmar Asignacion 
 Se confirma la asiganacion
 <img width="1057" height="570" alt="Captura de pantalla 2025-09-13 235203" src="https://github.com/user-attachments/assets/b981528f-987f-41a8-b28c-3a4f064d6a0f" />
+
+
+## Caso de uso 3
+## Pantalla Seleccionar Proyecto Completado
+Aca se ve los proyectos terminados y los pendientes,por lo general se evalua al personal que ya terminaron un proyecto
+<img width="1023" height="899" alt="Captura de pantalla 2025-09-13 235522" src="https://github.com/user-attachments/assets/5383c922-a584-45c4-80cc-1d0d2854a402" />
+
+## Pantalla Evaluacion de Desempeño
+Aca se evalua bajo varios criterios,Conocimiento tecnito,puntualidad,calidad de trabajo,comentario  y retroalimentacion
+<img width="905" height="885" alt="Captura de pantalla 2025-09-13 235944" src="https://github.com/user-attachments/assets/ea8ec235-43ba-43a8-a9a2-181bddc57eaf" />
 
 ---
 
