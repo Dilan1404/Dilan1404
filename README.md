@@ -182,13 +182,14 @@
 | **P002** | Editor de reportes – formulario para consolidar datos y generar reporte |
 | **P003** | Historial – reportes por cliente, con opción de descarga |
 
-###Caso de uso 1
+## Caso de uso 1
+Pantalla principal del Modulo de Gestion de Reportes
 <img width="1587" height="705" alt="Captura de pantalla 2025-09-13 230551" src="https://github.com/user-attachments/assets/a58cd1cb-611e-42f3-bc04-936419bdc484" />
 <img width="1080" height="560" alt="Captura de pantalla 2025-09-13 231700" src="https://github.com/user-attachments/assets/f2943bf3-e433-4844-8c91-5836fc9bbf14" />
 <img width="1072" height="807" alt="Captura de pantalla 2025-09-13 231748" src="https://github.com/user-attachments/assets/187eb2c3-b0c2-4e9d-bd79-57c99cdf596a" />
 <img width="1035" height="690" alt="Captura de pantalla 2025-09-13 231845" src="https://github.com/user-attachments/assets/cae397e1-564d-4c65-9f1d-0822d4af3a4a" />
 
-###Caso de uso 2
+## Caso de uso 2
 <img width="1016" height="709" alt="Captura de pantalla 2025-09-13 232028" src="https://github.com/user-attachments/assets/a5ce726d-a6fb-4b3b-9155-9c1fa839a72d" />
 <img width="1043" height="786" alt="Captura de pantalla 2025-09-13 232313" src="https://github.com/user-attachments/assets/f4a67c9b-9073-4672-af97-5a493ac0a0df" />
 
