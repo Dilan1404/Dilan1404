@@ -1,14 +1,36 @@
 ## 1.3.3. Modulo de Gestion de Reportes
 
+| Actividad                    | Descripción                                                                    | Responsable                     |
+| ---------------------------- | ------------------------------------------------------------------------------ | ------------------------------- |
+| Recopilar Información        | Reunir datos de auditorías, capacitaciones y resultados del servicio.          | Equipo Consultor                |
+| Redactar Reporte Preliminar  | Elaborar el documento inicial con hallazgos, conclusiones y recomendaciones.   | Equipo Consultor                |
+| Revisar y Validar Reporte    | Verificación de calidad, cumplimiento de normas y consistencia del contenido.  | Coordinación                    |
+| Ajustar Observaciones        | Incorporar correcciones y sugerencias realizadas en la revisión.               | Equipo Consultor                |
+| Emitir Reporte Final         | Generar versión definitiva aprobada por coordinación.                          | Coordinación                    |
+| Compartir Reporte al Cliente | Entregar reporte final (digital/físico) y registrar confirmación de recepción. | Coordinación / Equipo Consultor |
 
+
+
+
+<img width="1679" height="621" alt="Captura de pantalla 2025-09-14 235726" src="https://github.com/user-attachments/assets/a34c6a9e-c8e6-4037-9b81-1eb8629d4f6d" />
 
 
 
 ## 1.3.5. Modulo de Gestion Integral de Reclutamiento y Selecion
 
 
+| Actividad                             | Descripción                                                                                                   | Responsable                    |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| Registrar Perfil Requerido            | Identificación de competencias, conocimientos y disponibilidad necesarios para el servicio.                   | Coordinación                   |
+| Buscar y Seleccionar Experto          | Revisión en la base de datos de personal interno y externos asociados para encontrar el perfil más adecuado.  | Área de RRHH / Coordinación    |
+| Validar Disponibilidad y Competencias | Confirmación de que el experto cumple requisitos técnicos y está disponible para el proyecto.                 | RRHH / Equipo Consultor        |
+| Formalizar Asignación                 | Firma de contrato o acuerdo de confidencialidad y registro de condiciones de colaboración.                    | Coordinación / RRHH            |
+| Registrar Asignación en el Sistema    | Actualización de la base de datos con información de experto asignado y proyecto vinculado.                   | Soporte / Coordinación         |
+| Evaluar Desempeño                     | Valoración del trabajo del personal/experto al finalizar el servicio, retroalimentación y cierre de registro. | Coordinación / Cliente Interno |
 
 
+
+<img width="1066" height="724" alt="Captura de pantalla 2025-09-14 235918" src="https://github.com/user-attachments/assets/a2039b6a-167e-42e4-b0ba-d33f6c6a7d22" />
 
 
 
