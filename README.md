@@ -1,5 +1,8 @@
 ## 1.3.3. Modulo de Gestion de Reportes
 
+
+<img width="1679" height="621" alt="Captura de pantalla 2025-09-14 235726" src="https://github.com/user-attachments/assets/a34c6a9e-c8e6-4037-9b81-1eb8629d4f6d" />
+
 | Actividad                    | Descripción                                                                    | Responsable                     |
 | ---------------------------- | ------------------------------------------------------------------------------ | ------------------------------- |
 | Recopilar Información        | Reunir datos de auditorías, capacitaciones y resultados del servicio.          | Equipo Consultor                |
@@ -12,12 +15,14 @@
 
 
 
-<img width="1679" height="621" alt="Captura de pantalla 2025-09-14 235726" src="https://github.com/user-attachments/assets/a34c6a9e-c8e6-4037-9b81-1eb8629d4f6d" />
+
 
 
 
 ## 1.3.5. Modulo de Gestion Integral de Reclutamiento y Selecion
 
+
+<img width="1066" height="724" alt="Captura de pantalla 2025-09-14 235918" src="https://github.com/user-attachments/assets/a2039b6a-167e-42e4-b0ba-d33f6c6a7d22" />
 
 | Actividad                             | Descripción                                                                                                   | Responsable                    |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------ |
@@ -30,7 +35,7 @@
 
 
 
-<img width="1066" height="724" alt="Captura de pantalla 2025-09-14 235918" src="https://github.com/user-attachments/assets/a2039b6a-167e-42e4-b0ba-d33f6c6a7d22" />
+
 
 
 
