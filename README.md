@@ -189,7 +189,7 @@
 Aqui se muestra la pantalla principal del modulo ,dentro de la cual podemos seleccionar las opciones de los diferentes caso de uso
 <img width="1587" height="705" alt="Captura de pantalla 2025-09-13 230551" src="https://github.com/user-attachments/assets/a58cd1cb-611e-42f3-bc04-936419bdc484" />
 
-## Caso de uso 1
+## Caso de uso 1 - Elaborar reporte de auditoría
 ## Pantalla de informacion general del reporte
 Se escribe la informacion general del reporte los campos a llenar son el titulo del reporte ,cliente , proyecto y tipo de reporte  una vez llenado se pasa al contenido del reporte
 <img width="1080" height="560" alt="Captura de pantalla 2025-09-13 231700" src="https://github.com/user-attachments/assets/f2943bf3-e433-4844-8c91-5836fc9bbf14" />
@@ -202,7 +202,7 @@ En esta parte se escribe el contenido del reporte como son los hallazgos princip
 Se da un revision al reporte,si vemos que esta con toda la informacion necesario ,entoces se genera y se envia el reporte
 <img width="1035" height="690" alt="Captura de pantalla 2025-09-13 231845" src="https://github.com/user-attachments/assets/cae397e1-564d-4c65-9f1d-0822d4af3a4a" />
 
-## Caso de uso 2
+## Caso de uso 2 - Consultar reportes históricos
 ## Pantalla de Reportes historicos
 Aca se aprecia los reportes que se tienen en la base de datos y que sirve de ayuda a tener conocimientos previo de lo que se realizó
 <img width="1016" height="709" alt="Captura de pantalla 2025-09-13 232028" src="https://github.com/user-attachments/assets/a5ce726d-a6fb-4b3b-9155-9c1fa839a72d" />
@@ -298,7 +298,7 @@ En este apartado se llega a ver los detalles de los reportes ,hallazgo,conclusio
 En este apartados podemos ver los casos de uso que se implementaron dentro del modulo de Gestion de Personal y Expertos asociados,Registro de Nuevo experto asociado, Asiganar Personal a Proyecto y Evaluar desempeño de personal experto
 <img width="1577" height="682" alt="Captura de pantalla 2025-09-13 234225" src="https://github.com/user-attachments/assets/a1fa302b-6856-4ef8-993a-049007a9ae0e" />
 
-## Caso de uso 1
+## Caso de uso 1 - Elaborar reporte de auditoría
 ## Pantalla Registrar Nuevo Experto Asociado
 Aca rellenamos la informacion de un experto ,los campos a rellenar son nombre completo,email,ubicacion,telefono,especialidad,años de experiencia.Una vez completado se registra el experto asociado
 <img width="1021" height="807" alt="Captura de pantalla 2025-09-13 234532" src="https://github.com/user-attachments/assets/8811e49c-6918-4419-93db-8eed56edd6d4" />
@@ -307,7 +307,7 @@ Aca rellenamos la informacion de un experto ,los campos a rellenar son nombre co
 Se verifica que el registro del experto a concluido de forma satisfactoria
 <img width="1018" height="754" alt="Captura de pantalla 2025-09-14 203616" src="https://github.com/user-attachments/assets/848d39cc-5f4d-4b1e-be60-33dd5893e812" />
 
-## Caso de uso 2
+## Caso de uso 2 - Pantalla del contenido general del reporte
 ## Pantalla Asignar Personal a Proyecto
 En este apartado tenemo el trabajo de selecionar a nuestro personal para asignarles un proyecto,puede estar conformado por un equipo
 <img width="1013" height="680" alt="Captura de pantalla 2025-09-13 234828" src="https://github.com/user-attachments/assets/78a4b6c2-2a7d-44e9-8115-0c9419f7cf3f" />
@@ -321,7 +321,7 @@ Se confirma la asiganacion
 <img width="1057" height="570" alt="Captura de pantalla 2025-09-13 235203" src="https://github.com/user-attachments/assets/b981528f-987f-41a8-b28c-3a4f064d6a0f" />
 
 
-## Caso de uso 3
+## Caso de uso 3 - Evaluar desempeño de personal/experto
 ## Pantalla Seleccionar Proyecto Completado
 Aca se ve los proyectos terminados y los pendientes,por lo general se evalua al personal que ya terminaron un proyecto
 <img width="1023" height="899" alt="Captura de pantalla 2025-09-13 235522" src="https://github.com/user-attachments/assets/5383c922-a584-45c4-80cc-1d0d2854a402" />
