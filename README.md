@@ -282,9 +282,17 @@ En este apartado se llega a ver los detalles de los reportes ,hallazgo,conclusio
 
 | **Código** | **Descripción** |
 |------------|-----------------|
-| **P101** | Registro de experto – formulario de datos personales y técnicos |
-| **P102** | Asignación de personal – vista de proyectos y disponibilidad |
-| **P103** | Evaluación de desempeño – formulario de retroalimentación del cliente |
+| **PGP001** | Pantalla Registrar Nuevo Experto Asociado |
+| **PGP002** |  Pantalla de confirmacion |
+| **PGP003** | Pantalla Asignar Personal a Proyecto |
+| **PGP004** | Pantalla Seleccionar Experto |
+| **PGP005** | Confirmar Asignacion |
+| **PGP006** | Pantalla Seleccionar Proyecto Completado |
+| **PGP007** | Pantalla Evaluacion de Desempeño |
+| **PGP008** | Pantalla evaluacion enviada|
+
+
+
 ## Pantalla Principal del Modulo de Gestion de Personal y Expertos asociados
 En este apartados podemos ver los casos de uso que se implementaron dentro del modulo de Gestion de Personal y Expertos asociados
 <img width="1577" height="682" alt="Captura de pantalla 2025-09-13 234225" src="https://github.com/user-attachments/assets/a1fa302b-6856-4ef8-993a-049007a9ae0e" />
