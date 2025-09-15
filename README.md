@@ -186,15 +186,16 @@
 
 
 ## Pantalla principal del Modulo de Gestion de Reportes
+Aqui se muestra la pantalla principal del modulo ,dentro de la cual podemos seleccionar las opciones de los diferentes caso de uso
 <img width="1587" height="705" alt="Captura de pantalla 2025-09-13 230551" src="https://github.com/user-attachments/assets/a58cd1cb-611e-42f3-bc04-936419bdc484" />
 
 ## Caso de uso 1
 ## Pantalla de informacion general del reporte
-Se escribe la informacion general del reporte
+Se escribe la informacion general del reporte los campos a llenar son el titulo del reporte ,cliente , proyecto y tipo de reporte  una vez llenado se pasa al contenido del reporte
 <img width="1080" height="560" alt="Captura de pantalla 2025-09-13 231700" src="https://github.com/user-attachments/assets/f2943bf3-e433-4844-8c91-5836fc9bbf14" />
 
 ## Pantalla del contenido general del reporte
-En esta parte se escribe el contenido del reporte como son los hallazgos principales,conclusiones y recomendaciones
+En esta parte se escribe el contenido del reporte como son los hallazgos principales,conclusiones y recomendaciones ,una vez llenado los campos se pasa a la parte final
 <img width="1072" height="807" alt="Captura de pantalla 2025-09-13 231748" src="https://github.com/user-attachments/assets/187eb2c3-b0c2-4e9d-bd79-57c99cdf596a" />
 
 ## Pantalla revision del reporte y envio
@@ -294,15 +295,16 @@ En este apartado se llega a ver los detalles de los reportes ,hallazgo,conclusio
 
 
 ## Pantalla Principal del Modulo de Gestion de Personal y Expertos asociados
-En este apartados podemos ver los casos de uso que se implementaron dentro del modulo de Gestion de Personal y Expertos asociados
+En este apartados podemos ver los casos de uso que se implementaron dentro del modulo de Gestion de Personal y Expertos asociados,Registro de Nuevo experto asociado, Asiganar Personal a Proyecto y Evaluar desempeño de personal experto
 <img width="1577" height="682" alt="Captura de pantalla 2025-09-13 234225" src="https://github.com/user-attachments/assets/a1fa302b-6856-4ef8-993a-049007a9ae0e" />
 
 ## Caso de uso 1
 ## Pantalla Registrar Nuevo Experto Asociado
-Aca rellenamos la informacion de un experto ,los campos a rellenar son nombre completo,email,ubicacion,telefono,especialidad,años de experiencia,etc
+Aca rellenamos la informacion de un experto ,los campos a rellenar son nombre completo,email,ubicacion,telefono,especialidad,años de experiencia.Una vez completado se registra el experto asociado
 <img width="1021" height="807" alt="Captura de pantalla 2025-09-13 234532" src="https://github.com/user-attachments/assets/8811e49c-6918-4419-93db-8eed56edd6d4" />
 
 ## Pantalla de confirmacion
+Se verifica que el registro del experto a concluido de forma satisfactoria
 <img width="1018" height="754" alt="Captura de pantalla 2025-09-14 203616" src="https://github.com/user-attachments/assets/848d39cc-5f4d-4b1e-be60-33dd5893e812" />
 
 ## Caso de uso 2
@@ -329,6 +331,7 @@ Aca se evalua bajo varios criterios,Conocimiento tecnito,puntualidad,calidad de 
 <img width="905" height="885" alt="Captura de pantalla 2025-09-13 235944" src="https://github.com/user-attachments/assets/ea8ec235-43ba-43a8-a9a2-181bddc57eaf" />
 
 ## Pantalla evaluacion enviada
+Se verefica que la evaluacion a sido enviada de manera satisfacoria
 <img width="867" height="867" alt="Captura de pantalla 2025-09-14 000100" src="https://github.com/user-attachments/assets/eeeb0cc7-af73-4454-ab1a-97de9380fe6d" />
 
 ---
