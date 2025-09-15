@@ -1,63 +1,12 @@
 ## 1.3.3. Modulo de Gestion de Reportes
-![Diagrama de flujo reportes](https://github.com/user-attachments/assets/258b0188-8db5-4ff9-ba30-de54a54ab813)
 
-| **Actividad** | **Descripción** | **Responsable** |
-|---------------|-----------------|-----------------|
-| Planificación de reportes | Definir frecuencia, alcance y responsables de los reportes según los proyectos y clientes. | Gerente General / Área de soporte |
-| Recopilación de información | Recolectar datos de asesores, auditores y clientes (encuestas, resultados, hallazgos técnicos). | Asesor líder / Equipo de soporte |
-| Validación de datos | Verificar consistencia, precisión y relevancia de la información obtenida. | Asesor líder / Auditor responsable |
-| Gestión de la información | Organizar y clasificar los datos para facilitar análisis y actualización posterior. | Área de soporte |
-| Actualización de la información | Incorporar correcciones o datos nuevos provenientes de retroalimentación de clientes o asesores. | Área de soporte / Asesor líder |
-| Elaboración final del reporte | Redactar y estructurar el documento con hallazgos, conclusiones y recomendaciones. | Asesor líder / Área de soporte |
-| Actualización de reportes | Emitir nuevas versiones de reportes cuando hay cambios significativos en los proyectos. | Área de soporte |
-| Envío del reporte | Entregar el reporte final al cliente (formato PDF/correo/plataforma). | Gerente General / Área de soporte |
+
 
 
 
 ## 1.3.5. Modulo de Gestion Integral de Reclutamiento y Selecion
 
-## Procesos 
 
-### 1.3.5.1 . Gestión de Nuevas Vacantes
-![Diagrama de flujo gestion de nuevas vacantes](https://github.com/user-attachments/assets/7c19b048-043c-40f3-9647-5aa47d93f727)
-
-
-| Actividad                        | Descripción                                                                                   | Responsable |
-|----------------------------------|-----------------------------------------------------------------------------------------------|-------------|
-| Identificación de necesidades de personal | Detectar la falta de personal interno o la necesidad de expertos externos para un proyecto. | Área solicitante / Jefe de Proyecto |
-| Solicitud de vacante             | Formalizar la necesidad de contratación mediante la solicitud al área de RRHH.                 | Asesor Líder / Gerente General |
-| Definición del perfil del puesto | Establecer competencias técnicas, experiencia y responsabilidades requeridas.                 | RRHH / Jefe de Área |
-| Aprobación de la vacante         | Validación final por parte de la gerencia para publicar el requerimiento.                      | Gerencia General |
-| Publicación de vacante           | Difusión en medios como LinkedIn, página web, bolsas de trabajo o red de consultores.          | Área de RRHH |
-
----
-
-
-### 1.3.5.2. Selección y Contratación
-![Seleccion de contratacion](https://github.com/user-attachments/assets/1a188197-328d-45b5-920c-c4401981f024)
-| Actividad              | Descripción                                                                 | Responsable |
-|------------------------|-----------------------------------------------------------------------------|-------------|
-| Recepción de postulaciones | Recojo y registro de hojas de vida o perfiles enviados por los candidatos.     | Área de RRHH |
-| Preselección           | Filtro inicial según requisitos básicos: formación, experiencia, certificaciones. | Reclutador / RRHH |
-| Evaluación técnica     | Entrevistas técnicas o pruebas específicas relacionadas con el proyecto.         | Especialistas Técnicos / RRHH |
-| Entrevista con la gerencia | Validación del perfil personal y cultural del candidato.                         | Gerencia General |
-| Decisión de contratación | Selección del candidato más adecuado en base a evaluaciones.                      | Comité de Selección / RRHH |
-| Formalización del contrato | Redacción de acuerdos de honorarios, plazos y condiciones de colaboración.       | Área de RRHH / Legal |
-
----
-
-
-### 1.3.5.3 . Asignación de Empleados
-![Diagrama de flujo Empleados](https://github.com/user-attachments/assets/b9a78db3-5ae9-48e7-8b97-c88555b17807)
-| Actividad                  | Descripción                                                                 | Responsable |
-|-----------------------------|-----------------------------------------------------------------------------|-------------|
-| Registro en el sistema      | Incorporación del nuevo colaborador en la base de datos de recursos humanos. | Área de RRHH |
-| Asignación a proyecto/cliente | Designación del candidato a un servicio o proyecto específico según su perfil. | Jefe de Proyecto / RRHH |
-| Notificación al equipo      | Comunicación a asesores líderes y técnicos sobre la integración del nuevo miembro. | RRHH / Jefe de Proyecto |
-| Inducción y capacitación inicial | Formación en normativas, procesos internos y herramientas tecnológicas (Zoom, Drive, Keep, etc.). | RRHH / Área de Capacitación |
-| Seguimiento inicial         | Monitoreo del desempeño en las primeras semanas para validar la adecuación al puesto. | Jefe Directo / RRHH |
-
----
 
 
 
@@ -123,7 +72,7 @@
 | **Nombre del módulo**               | Módulo de Gestión de Reportes |
 | **Responsabilidades**               | Permite crear, consultar y administrar reportes de auditorías, capacitaciones y proyectos. Automatiza la generación de reportes preliminares y finales.  |
 | **Interacciones con otros módulos** | <ul><li>**Gestión de Personal y Expertos:** usa datos de los asesores y auditores para asociar responsables en los reportes.</li><li>**Gestión de Proyectos:** consulta información de proyectos y auditorías para generar reportes.</li><li>**Gestión de Clientes:** relaciona reportes con clientes y permite que accedan a ellos.</li></ul> |
-| **Datos principales que gestiona**  | <ul><li>Reportes de auditorías y capacitaciones.</li><li>Hallazgos, conclusiones y recomendaciones.</li><li>Historial de reportes por cliente/proyecto.</li><li>Archivos digitales de reportes (PDF/Drive).</li></ul>  |
+| **Datos principales que gestiona**  | <ul><li>Reportes de auditorías y  las capacitaciones.</li><li>Hallazgos, conclusiones y recomendaciones.</li><li>Historial de reportes por cliente/proyecto.</li><li>Archivos digitales de reportes que se encuentran en PDF y en Google Dirve .</li></ul>  |
 | **Usuarios o actores principales**  | <ul><li>Asesor líder</li><li>Auditor</li><li>Gerente General</li><li>Cliente</li></ul>   |
 
 
@@ -132,7 +81,7 @@
 | **Campo**                           | **Descripción**  |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nombre del módulo**               | Módulo de Gestión de Personal y Expertos Asociados   |
-| **Responsabilidades**               | Administra el registro, asignación y evaluación del personal interno y de expertos externos. Facilita la selección de recursos humanos para proyectos. |
+| **Responsabilidades**               | Administra el registro, asignación y evaluación del personal interno y de expertos externos. Hace más facil  la selección de recursos humanos para proyectos. |
 | **Interacciones con otros módulos** | <ul><li>**Gestión de Reportes:** provee información del personal asignado a proyectos para asociarlos a los reportes.</li><li>**Gestión de Proyectos:** asigna personal a proyectos o servicios.</li><li>**Gestión de Clientes:** obtiene retroalimentación de clientes sobre desempeño de expertos.</li></ul> |
 | **Datos principales que gestiona**  | <ul><li>Registro de expertos externos e internos.</li><li>Asignación de personal a proyectos.</li><li>Historial de evaluaciones de desempeño.</li><li>Disponibilidad de personal y talento asociado.</li></ul>       |
 | **Usuarios o actores principales**  | <ul><li>Gerente General</li><li>Área de soporte</li><li>Asesor líder</li><li>Cliente (para evaluaciones)</li></ul>                     
