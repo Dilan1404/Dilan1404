@@ -119,24 +119,24 @@
 
 
 
-# 📘 Especificación de Requisitos y Prototipo
 
----
 
-## 1️⃣ Módulo de Gestión de Reportes
 
-### Requisitos funcionales (Casos de uso)
+
+##  Módulo de Gestión de Reportes
+
+### Requisitos funcionales 
 
 | **Campo** | **Detalle** |
 |-----------|-------------|
 | **Caso de uso 1** | **Elaborar reporte de auditoría** |
-| **Actor(es)** | Asesor líder, Auditor, Cliente |
+| **Actor** | Asesor líder, Auditor, Cliente |
 | **Objetivo** | Generar un reporte con hallazgos, conclusiones y recomendaciones |
-| **Precondiciones** | Auditoría realizada; datos registrados en sistema |
-| **Disparador** | Finalización de auditoría o capacitación |
-| **Flujo principal** | 1. El asesor líder selecciona proyecto/servicio <br> 2. El sistema carga la información recolectada (encuestas, listas de asistencia, cronograma) <br> 3. El asesor valida y complementa datos <br> 4. El sistema genera reporte preliminar <br> 5. El asesor revisa, aprueba y publica versión final |
+| **Pre-condiciones** | Auditoría realizada; datos registrados en sistema |
+| **Como inicia** | Finalización de auditoría o capacitación |
+| **Flujo principal** | 1. El asesor líder selecciona proyecto o servicio <br> 2. El sistema carga la información recolectada esto puedes ser encuestas, listas de asistencia, cronograma <br> 3. El asesor valida y complementa datos <br> 4. El sistema genera reporte preliminar o borrador <br> 5. El asesor revisa, aprueba y publica versión final del reporte |
 | **Postcondiciones** | Reporte disponible para cliente en formato digital |
-| **Pantallas asociadas** | P001 – Lista de reportes <br> P002 – Editor de reportes |
+| **Pantallas que se muestran** | GRP001 –  Pantalla de informacion general del reporte <br> GRP002 – Pantalla del contenido general del reporte <br> GRP003 - Pantalla revision del reporte y envio|
 
 ---
 
@@ -144,12 +144,12 @@
 |-----------|-------------|
 | **Caso de uso 2** | **Consultar reportes históricos** |
 | **Actor(es)** | Gerente General, Cliente |
-| **Objetivo** | Acceder a reportes previos organizados por cliente y proyecto |
-| **Precondiciones** | Existencia de reportes archivados |
-| **Disparador** | Usuario selecciona cliente o proyecto |
-| **Flujo principal** | 1. Usuario ingresa al módulo de reportes <br> 2. El sistema muestra lista de reportes asociados <br> 3. Usuario selecciona reporte para descargar o visualizar |
-| **Postcondiciones** | Reporte accesible en PDF |
-| **Pantallas asociadas** | P003 – Historial de reportes |
+| **Objetivo** | Acceder a reportes previos organizados por cliente y proyectos |
+| **Pre-condiciones** | Tiene que haber proyectos previos |
+| **Como inicia** | Usuario selecciona cliente o proyecto |
+| **Flujo principal** | 1. Usuario ingresa al módulo de reportes <br> 2. El sistema muestra lista de reportes asociados <br> 3. El usuario selecciona reporte para descargar o visualizar |
+| **Postcondiciones** | Reporte en PDF |
+| **Pantallas asociadas** | GRP004 - Pantalla de Reportes historicos <br> – GRP005 - Pantalla Vista de Reporte  <br> |
 
 ---
 
@@ -158,10 +158,10 @@
 | **Atributo** | **Detalle** |
 |--------------|-------------|
 | **Rendimiento** | Listar reportes debe demorar < 2s para hasta 500 registros |
-| **Disponibilidad** | 99.5% en horario laboral (08:00–20:00) |
-| **Escalabilidad** | Soportar hasta 100 usuarios concurrentes |
-| **Seguridad** | Acceso controlado según rol; clientes solo ven reportes propios |
-| **Usabilidad** | Consultar un reporte en máximo 3 clics |
+| **Disponibilidad** | Disponible dentro del horario laboral |
+| **Escalabilidad** | Soportar hasta 100 usuarios conectados simultanemente |
+| **Seguridad** | Acceso controlado según cargo ,los clientes solo ven reportes propios o entregados a ellos |
+| **Usabilidad** | Consultar un reporte en máximo 2 pasos o clicks, |
 
 ---
 
@@ -169,18 +169,20 @@
 
 | **Restricción** | **Detalle** |
 |-----------------|-------------|
-| **Integración** | Google Drive para almacenamiento de entregables |
+| **Integración** | Se usa Google drive para almacenar los reportes o entregrables |
 | **Normas** | Cumplimiento con requisitos de acreditación INACAL en reportes de ensayos |
 
 ---
 
-### Prototipo (pantallas preliminares)
+### Prototipo 
 
-| **Código** | **Descripción** |
+| **Código** | **Descripción** | 
 |------------|-----------------|
-| **P001** | Lista de reportes – vista de proyectos y reportes asociados |
-| **P002** | Editor de reportes – formulario para consolidar datos y generar reporte |
-| **P003** | Historial – reportes por cliente, con opción de descarga |
+| **GRP001** | Pantalla de informacion general del reporte |
+| **GRP002** | Pantalla del contenido general del reporte |
+| **GRP003** | Pantalla revision del reporte y envio |
+| **GRP004** | Pantalla de Reportes historicos |
+| **GRP005** | Pantalla Vista de Reporte  |
 
 
 ## Pantalla principal del Modulo de Gestion de Reportes
@@ -195,7 +197,7 @@ Se escribe la informacion general del reporte
 En esta parte se escribe el contenido del reporte como son los hallazgos principales,conclusiones y recomendaciones
 <img width="1072" height="807" alt="Captura de pantalla 2025-09-13 231748" src="https://github.com/user-attachments/assets/187eb2c3-b0c2-4e9d-bd79-57c99cdf596a" />
 
-## Pantalla revision del reporte
+## Pantalla revision del reporte y envio
 Se da un revision al reporte,si vemos que esta con toda la informacion necesario ,entoces se genera y se envia el reporte
 <img width="1035" height="690" alt="Captura de pantalla 2025-09-13 231845" src="https://github.com/user-attachments/assets/cae397e1-564d-4c65-9f1d-0822d4af3a4a" />
 
@@ -209,33 +211,36 @@ En este apartado se llega a ver los detalles de los reportes ,hallazgo,conclusio
 <img width="1043" height="786" alt="Captura de pantalla 2025-09-13 232313" src="https://github.com/user-attachments/assets/f4a67c9b-9073-4672-af97-5a493ac0a0df" />
 
 
-## 2️⃣ Módulo de Gestión de Personal y Expertos Asociados
 
-### Requisitos funcionales (Casos de uso)
+
+
+##  Módulo de Gestión de Personal y Expertos Asociados
+
+### Requisitos funcionales 
 
 | **Campo** | **Detalle** |
 |-----------|-------------|
 | **Caso de uso 1** | **Registrar nuevo experto asociado** |
 | **Actor(es)** | Gerente General, Área de soporte |
-| **Objetivo** | Ingresar datos de un experto externo para proyectos futuros |
-| **Precondiciones** | Perfil de puesto definido |
-| **Disparador** | Necesidad de cubrir un proyecto especializado |
+| **Objetivo** | Ingresar datos de un experto externo para proyectos  |
+| **Precondiciones** | Perfil del puesto definido |
+| **Como inicia** | Necesidad de cubrir un proyecto especializado |
 | **Flujo principal** | 1. Gerente solicita registro de experto <br> 2. El sistema muestra formulario de registro <br> 3. Se ingresan datos de contacto, especialidad, experiencia <br> 4. El sistema guarda registro y lo asocia a base de talento |
 | **Postcondiciones** | Experto disponible en catálogo de recursos |
-| **Pantallas asociadas** | P101 – Registro de experto |
+| **Pantallas asociadas** | PGP001 – Pantalla Registrar Nuevo Experto Asociado <br> - PG002 - Pantalla de confirmacion <br> |
 
 ---
 
 | **Campo** | **Detalle** |
 |-----------|-------------|
 | **Caso de uso 2** | **Asignar personal/experto a proyecto** |
-| **Actor(es)** | Gerente General, Asesor líder |
-| **Objetivo** | Vincular empleado interno o experto externo a un proyecto |
-| **Precondiciones** | Proyecto registrado; personal disponible |
+| **Actor ** | Gerente General, Asesor líder |
+| **Objetivo** | Vincular al empleado interno o experto externo a un proyecto |
+| **Precondiciones** | Proyecto registrado y personal disponible |
 | **Disparador** | Inicio de nuevo servicio o auditoría |
-| **Flujo principal** | 1. Usuario selecciona proyecto <br> 2. El sistema lista candidatos internos y externos disponibles <br> 3. Usuario elige personal y lo asigna <br> 4. El sistema notifica al personal asignado |
+| **Flujo principal** | 1. Usuario selecciona proyecto <br> 2. El programa lista candidatos internos y externos disponibles <br> 3. Usuario elige al  personal y lo asigna a un proyecto o proyectos <br> 4. El sistema notifica al personal asignado |
 | **Postcondiciones** | Personal queda vinculado al proyecto |
-| **Pantallas asociadas** | P102 – Asignación de personal |
+| **Pantallas asociadas** | PGP003 – Pantalla Asignar Personal a Proyecto <br> PGP004 - Pantalla Seleccionar Experto <br> PGP005 - Confirmar Asignacion  |
 
 ---
 
@@ -243,12 +248,12 @@ En este apartado se llega a ver los detalles de los reportes ,hallazgo,conclusio
 |-----------|-------------|
 | **Caso de uso 3** | **Evaluar desempeño de personal/experto** |
 | **Actor(es)** | Cliente, Gerente General |
-| **Objetivo** | Recibir retroalimentación sobre desempeño en un servicio |
+| **Objetivo** | Recibir retroalimentación acerca delk desempeño en un servicio |
 | **Precondiciones** | Proyecto finalizado |
 | **Disparador** | Cierre de proyecto |
 | **Flujo principal** | 1. El sistema envía encuesta al cliente <br> 2. Cliente responde con calificaciones y comentarios <br> 3. El sistema genera reporte de desempeño |
 | **Postcondiciones** | Evaluación registrada en historial del colaborador |
-| **Pantallas asociadas** | P103 – Evaluación de desempeño |
+| **Pantallas asociadas** | PGP006 – Pantalla Seleccionar Proyecto Completado <br> PGP007 - Pantalla Evaluacion de Desempeño  <br> PGP008 - Pantalla evaluacion enviada |
 
 ---
 
@@ -256,11 +261,11 @@ En este apartado se llega a ver los detalles de los reportes ,hallazgo,conclusio
 
 | **Atributo** | **Detalle** |
 |--------------|-------------|
-| **Rendimiento** | Registro de un experto no debe exceder 3s |
-| **Disponibilidad** | 99% en horarios laborales |
-| **Escalabilidad** | Base de datos de hasta 10,000 registros de personal/externos |
+| **Rendimiento** | Registro de un experto no debe exceder mas de los 3 segundos |
+| **Disponibilidad** | Dentro del horario laborar |
+| **Escalabilidad** | Base de datos de hasta 10,000 registros de personal interno o externos |
 | **Seguridad** | Control de acceso; información sensible protegida con cifrado |
-| **Usabilidad** | Registro en máximo 5 pasos; interfaz compatible con móviles |
+| **Usabilidad** | Maximo se deben mostrar 8 ventanas |
 
 ---
 
@@ -289,6 +294,9 @@ En este apartados podemos ver los casos de uso que se implementaron dentro del m
 Aca rellenamos la informacion de un experto ,los campos a rellenar son nombre completo,email,ubicacion,telefono,especialidad,años de experiencia,etc
 <img width="1021" height="807" alt="Captura de pantalla 2025-09-13 234532" src="https://github.com/user-attachments/assets/8811e49c-6918-4419-93db-8eed56edd6d4" />
 
+## Pantalla de confirmacion
+<img width="1018" height="754" alt="Captura de pantalla 2025-09-14 203616" src="https://github.com/user-attachments/assets/848d39cc-5f4d-4b1e-be60-33dd5893e812" />
+
 ## Caso de uso 2
 ## Pantalla Asignar Personal a Proyecto
 En este apartado tenemo el trabajo de selecionar a nuestro personal para asignarles un proyecto,puede estar conformado por un equipo
@@ -296,7 +304,6 @@ En este apartado tenemo el trabajo de selecionar a nuestro personal para asignar
 
 ## Pantalla Seleccionar Experto
 Aca selecionamos a los expertos que participaran en el proyecto ,se seleciona y los correos seran enviados a dichos expertos para su coordianacion
-
 <img width="694" height="522" alt="Captura de pantalla 2025-09-13 235031" src="https://github.com/user-attachments/assets/8537618c-6a3a-421c-bd47-01d554662947" />
 
 ## Confirmar Asignacion 
