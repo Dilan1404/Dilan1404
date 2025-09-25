@@ -1,1 +1,3 @@
 
+## Imagen
+![inp](Captura de pantalla 2025-09-24 133500.png)
