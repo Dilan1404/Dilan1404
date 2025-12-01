@@ -311,6 +311,62 @@ Puedes ampliar tu BD con más tablas:
 
 ---
 
+# 13.4. Implementación
+## Escenario de caso de uso
+Consulta masiva para ver todas la evualuaciones echa a los candidatos:
+“Mostras los puntos de evaluacion de cada candidadato.”
+
+```sql
+CREATE DATABASE IF NOT EXISTS proyecto7;
+CREATE TABLE proyecto7.evaluacion (
+    ID_Evaluacion String,
+    Hard_skills Nullable(UInt8),
+    Soft_skills Nullable(UInt8),
+    Experiencia Nullable(UInt8),
+    Etica_integridad Nullable(UInt8),
+    Evaluacion_economica Nullable(UInt8),
+    Observaciones String,
+    Cod_Postulacion String
+)
+ENGINE = MergeTree()
+ORDER BY ID_Evaluacion;
+```
+![img7](st7.png)
+
+```sql
+INSERT INTO evaluacion VALUES
+('EVAL01', 5, 4, 5, 5, 4, 'Excelente perfil técnico y comunicativo', 'POST01'),
+('EVAL02', 4, 4, 5, 5, 4, 'Muy buena experiencia en procesos', 'POST02'),
+('EVAL03', 3, 4, 2, 4, 3, 'Perfil junior con potencial', 'POST03'),
+('EVAL04', 2, 3, 1, 5, 3, 'Nivel asistente, requiere capacitación', 'POST04'),
+('EVAL05', 4, 5, 4, 5, 4, 'Auditor experimentado, fuerte en liderazgo', 'POST05'),
+('EVAL06', 5, 4, 5, 5, 4, 'Excelente dominio en gestión de seguridad y liderazgo de equipos', 'POST06'),
+('EVAL07', 4, 4, 5, 5, 5, 'Alta competencia técnica y comunicación efectiva', 'POST07'),
+('EVAL08', 4, 5, 3, 5, 4, 'Buen conocimiento técnico, destaca en trabajo en equipo', 'POST08'),
+('EVAL09', 3, 4, 2, 5, 3, 'Perfil junior, potencial para desarrollo interno', 'POST09'),
+('EVAL10', 5, 5, 4, 5, 5, 'Excelente auditor, con experiencia sólida en proyectos ambientales', 'POST10'),
+('EVAL11', 5, 4, 5, 5, 4, 'Gran dominio en gestión logística y liderazgo', 'POST11'),
+('EVAL12', 4, 5, 5, 5, 4, 'Excelente conocimiento en ciberseguridad', 'POST12'),
+('EVAL13', NULL, NULL, NULL, NULL, NULL, 'Pendiente de evaluación', 'POST13'),
+('EVAL14', NULL, NULL, NULL, NULL, NULL, 'Buen perfil técnico, alto compromiso', 'POST14'),
+('EVAL15', NULL, NULL, NULL, NULL, NULL, 'Analista con gran potencial técnico', 'POST15'),
+('EVAL16', NULL, NULL, NULL, NULL, NULL, 'Consultor con buen manejo ambiental', 'POST16'),
+('EVAL17', NULL, NULL, NULL, NULL, NULL, 'Pendiente de evaluación', 'POST17'),
+('EVAL18', NULL, NULL, NULL, NULL, NULL, 'Pendiente de evaluación', 'POST18'),
+('EVAL19', NULL, NULL, NULL, NULL, NULL, 'Asistente con habilidades básicas', 'POST19'),
+('EVAL20', NULL, NULL, NULL, NULL, NULL, 'Experto en logística, perfil ideal para contratación', 'POST20');
+```
+
+![img6](st6.png)
+
+```sql
+SELECT *
+FROM proyecto7.evaluacion
+ORDER BY Experiencia DESC
+LIMIT 5
+```
+![img5](st5.png)
+
 Si quieres también te genero los scripts SQL para crear esas tablas.
 
 
