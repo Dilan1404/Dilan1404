@@ -107,47 +107,9 @@ Consultas como:
 
 Se ejecutan hasta **100 veces más rápido que en PostgreSQL**.
 
-Ejemplo:
 
-```sql
-SELECT avg(Hard_skills), avg(Soft_skills), avg(Experiencia)
-FROM Evaluacion_CH
-WHERE Hard_skills > 0;
-```
 
----
 
-### **2. Compresión avanzada**
-
-Los valores repetitivos (1–5) se comprimen muchísimo.
-
-En la práctica:
-
-* La tabla Evaluación en PostgreSQL puede pesar 5–10 MB con muchos registros.
-* En ClickHouse puede pesar menos de 1 MB.
-
----
-
-### **3. Optimizado para millones de registros**
-
-Si tuvieras:
-
-* Evaluaciones históricas
-* Registros de varios años
-* Muchas iteraciones de evaluaciones por candidato
-
-ClickHouse los consulta sin problema.
-
-Ejemplo de consulta agrupada:
-
-```sql
-SELECT Experiencia, count()
-FROM Evaluacion_CH
-GROUP BY Experiencia
-ORDER BY Experiencia;
-```
-
----
 
 
 
