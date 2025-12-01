@@ -145,17 +145,17 @@ docker run -d --name clickhouse-server -p 8123:8123 -p 9000:9000 clickhouse/clic
 
 ## **1.2. Inicio del servicio ClickHouse**
 ## Pantalla de entrada de ClickHouse
-[img1](st1.png)
+![img1](st1.png)
 
 ---
 ## Pantalla de Inicio de ClickHouse
-[img2](st2.png)
+![img2](st2.png)
 
 ## Creacion de Tablas en ClickHouse
-[img3](st3.png)
+![img3](st3.png)
 
 ## Coneccion si se quiere trabajar en un proyecto con Python
-[img4](st4.png)
+![img4](st4.png)
 
 Verificar estado:
 
